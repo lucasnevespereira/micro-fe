@@ -1,8 +1,8 @@
-# Movie App (host application)
+# Jobs App (host application)
 
 Create host application
 ```
-pnpm create vite movie-app --template vue
+pnpm create vite jobs-app --template vue
 ```
 Install vite plugin federation
 ```
@@ -23,7 +23,7 @@ export default defineConfig({
   plugins: [
     vue(),
     federation({
-      name: "movie-app",
+      name: "jobs-app",
       remotes: {
         search_app: "http://localhost:5001/assets/searchApp.js",
       },

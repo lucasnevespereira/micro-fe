@@ -14,7 +14,7 @@ export default defineConfig({
   plugins: [
     vue(),
     federation({
-      name: "movie-app",
+      name: "jobs-app",
       remotes: {
         search_app: "http://localhost:5001/assets/searchApp.js",
       },

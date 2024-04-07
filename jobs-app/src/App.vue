@@ -4,7 +4,7 @@ import SearchApp from "search_app/App"
 
 <template>
   <div>
-    <h2>Movie App</h2>
+    <h2>Jobs App</h2>
     <div>
       <SearchApp />
     </div>
